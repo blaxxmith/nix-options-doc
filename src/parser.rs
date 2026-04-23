@@ -181,7 +181,7 @@ fn parse_attrset(
                     options.push(OptionDoc {
                         name: current_prefix.to_string(),
                         description: Some(format!(
-                            "Wether to enable {}.",
+                            "Whether to enable {}.",
                             description.unwrap_or(String::new())
                         )),
                         nix_type: "boolean".to_string(),
